@@ -88,7 +88,7 @@
       Then Check the "<error>" message after three try
       Examples:
         |email             | password       | error                                                              |
-        |gnaztrgn@gmail.com| 34170372155Gg. | Hımm... Bu parola doğru değil. Oturum açmanıza yardımcı olması için bir e-posta gönderdik.|
+        |gnaztrgn@gmail.com|                | Hımm... Bu parola doğru değil. Oturum açmanıza yardımcı olması için bir e-posta gönderdik.|
 
 
 
@@ -99,7 +99,7 @@
       Then User should be logged in successfully
       Examples:
         | email              | password        |
-        | gnaztrgn@gmail.com | 34170372155Gg.  |
+        |         @gmail.com |                 |
 
     @SuccesfullSignUp
     Scenario Outline: Succesfull Sign Up
@@ -109,7 +109,7 @@
       Then User should be registered successfully
       Examples:
         |email             | password       | birthday | name     |
-        |gad3b90894@gardsiir.com| 34170372155Gg. | 29052003 | Gokcenaz |
+        |gad3b90894@gardsiir.com|           | 29052003 | Gokcenaz |
 
     @ShowPictures
     Scenario: User can see the heart icon after clicking a photo

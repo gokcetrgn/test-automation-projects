@@ -43,7 +43,7 @@ Feature: BBC News
 
     Examples:
       | email               | password   |
-      | gnaztrgn@gmail.com  | 13579gokce   |
+      |         @gmail.com  | 13579gokce   |
 
   @SignUpNo
   Scenario Outline: Sign Up with No
@@ -57,7 +57,7 @@ Feature: BBC News
 
     Examples:
       | email                   | password     |
-      | gokcenaztrgn@gmail.com  | 13579gokce   |
+      | @gmail.com              | 13579gokce   |
 
 
   @WrongFormatofPassword
@@ -71,7 +71,7 @@ Feature: BBC News
 
     Examples:
       | email                   | password   | error |
-      | gokcenaztrgn@gmail.com  | 9gokce     | Sorry, that password isn't valid. Please include a letter.|
+      |             @gmail.com  | 9gokce     | Sorry, that password isn't valid. Please include a letter.|
 
   @WrongFormatofEmail
   Scenario Outline: Sign Up with Wrong Format of Email
@@ -82,7 +82,7 @@ Feature: BBC News
 
     Examples:
       | email                   | error                                                                  |
-      | gokcenaztrgngm.com      | Sorry, that email doesn’t look right. Please check it's a proper email.|
+      |                         | Sorry, that email doesn’t look right. Please check it's a proper email.|
 
   @SuccessfullSignIn
   Scenario Outline: Succesfully Sign In
@@ -93,7 +93,7 @@ Feature: BBC News
     Then Click Sign In
     Examples:
       | email               | password     |
-      | gnaztrgn@gmail.com  | 13579gokce   |
+      |                     | 13579gokce   |
 
   @LoginWithWrongPassword
   Scenario Outline: Login with Wrong Password
@@ -106,7 +106,7 @@ Feature: BBC News
 
     Examples:
       | email               | password     | error                                                        |
-      | gnaztrgn@gmail.com  | 2345666gokce   | Sorry, that password isn't valid. Please include a letter. |
+      |                     | 2345666gokce   | Sorry, that password isn't valid. Please include a letter. |
 
 
   @SaveNews
@@ -131,7 +131,7 @@ Feature: BBC News
 
     Examples:
       | email               | password     |
-      | gnaztrgn@gmail.com  | 13579gokce   |
+      |                     | 13579gokce   |
 
   @Signout
   Scenario Outline: Sign out
@@ -145,4 +145,4 @@ Feature: BBC News
 
     Examples:
       | email               | password     |
-      | gnaztrgn@gmail.com  | 13579gokce   |
+      |                     | 13579gokce   |

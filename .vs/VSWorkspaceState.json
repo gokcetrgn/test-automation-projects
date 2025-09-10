@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\bbcnews_project",
+    "\\bbcnews_project\\src",
+    "\\bbcnews_project\\src\\test",
+    "\\bbcnews_project\\src\\test\\java",
+    "\\bbcnews_project\\src\\test\\java\\Feature",
+    "\\bbcnews_project\\src\\test\\resources"
+  ],
+  "SelectedNode": "\\bbcnews_project\\src\\test\\java\\Feature\\BBC.feature",
+  "PreviewInSolutionExplorer": false
+}
