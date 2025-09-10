@@ -1,0 +1,8 @@
+<suite name = "Pinterest" >
+    <parameter name = "browser" value = "Chrome" />
+    <test name = "Pinterest Otomasyonu" >
+        <classes>
+            <class name = "testRunners.runner" />
+        </classes>
+    </test>
+</suite>

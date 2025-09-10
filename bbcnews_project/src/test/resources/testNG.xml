@@ -1,0 +1,8 @@
+<suite name = "BBC News" >
+    <parameter name = "browser" value = "Chrome" />
+    <test name = "BBC News" >
+        <classes>
+            <class name = "testRunners.runner" />
+        </classes>
+    </test>
+</suite>
